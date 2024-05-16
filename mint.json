@@ -77,7 +77,8 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/stream"
+        "api-reference/endpoint/stream",
+        "api-reference/endpoint/get"
       ]
     }
   ],
