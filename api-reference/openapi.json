@@ -463,12 +463,6 @@
       }
     }
   },
-  "x-readme": {
-    "explorer-enabled": false,
-    "proxy-enabled": false,
-    "send-defaults": true,
-    "samples-languages": ["shell"]
-  },
   "servers": [
     {
       "url": "https://general-runtime.voiceflow.com",
