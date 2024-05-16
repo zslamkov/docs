@@ -1,0 +1,22 @@
+---
+title: "Streaming runtime"
+---
+
+## Streaming runtime
+
+This endpoint allows for interaction with the streaming runtime.
+
+### POST `/v2beta1/interact/{projectID}/{versionID}/stream`
+
+**Description**: Streaming runtime
+
+**Parameters**:
+- `projectID` (string, required): Voiceflow project ID.
+- `versionID` (string, required): Voiceflow project version ID.
+- `accept` (string, optional): Sets the Content-Type of the response to event stream format.
+
+**Responses**:
+- `200`: Success
+- `400`: Bad Request
+- `401`: Unauthorized
+- `404`: Not Found
